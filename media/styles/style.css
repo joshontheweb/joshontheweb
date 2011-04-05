@@ -1,0 +1,44 @@
+body{
+	font: 18px/1.5 Helvetica, Helvetica Neue, Arial, sans-serif;
+/*    background: url(http://griddle.it/960-12-30) repeat-y center top; */
+}
+
+.header,
+.main,
+.footer { margin: 0 auto; width: 960px; }
+
+.header:after { clear: both; content: "\0020"; display: block; height: 0; visibility: hidden; }
+.main { margin-top: 30px; }
+.footer { box-shadow: 0 0 5px rgba(0, 0, 0, .5); width: 100%; }
+.main-nav { float: left; margin-top: 102px; padding: 0 30px; /*-webkit-transform: skewY(-20deg);*/ /*-webkit-transform: skewX(20deg);*/ }
+.main-nav a, .main-nav a:visited { color: #fff; text-decoration: none; }
+article { width: 630px; }
+aside { float: right; width: 300px; }
+
+.stripe { position: absolute; top: 10px; left: 0; width: 100%; height: 222px; background: #e06441; z-index: -100; }
+
+h1 { /*-webkit-transform: skewY(20deg);*/ float: left; color: #3b3329; display: inline-block; padding: 20px; font-size: 80px; text-shadow: 0 0 3px rgba(0, 0, 0, .3); box-shadow: 0 0 5px rgba(0, 0, 0, .5); }
+h1 > span { display: block; line-height: .9; }
+h1 .josh { color: white; width: auto; }
+h1 .josh span { /*background: rgba(150, 218, 193, .9)*/ /*border: 1px solid #ccc;*/  }
+h1 .on-the { font-size: 61px; }
+h1 .web { font-size: 86px; }
+
+.colors { margin: 0; padding: 0; list-style-type: none; }
+.colors li {  padding: 0; margin: 0; height: 15px; }
+.colors .one { background: #18485c; }
+.colors .two { background: #96dac1; }
+.colors .three { background: #efffd3; }
+.colors .four { background: #e06441; }
+.colors .five { background: #3b3329; }
+
+.shadow {
+   text-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000;
+   -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+}
+.shadow:hover {
+   position: relative; top: -3px; left: -3px;
+   text-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000, 4px 4px #000, 5px 5px #000, 6px 6px #000;
+}
