@@ -1,0 +1,2 @@
+Action php53-cgi /php53.cgi
+AddHandler php53-cgi .php
